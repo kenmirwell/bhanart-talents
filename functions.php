@@ -15,8 +15,6 @@ function bhanart_enqueue_styles() {
     wp_enqueue_style("raleway", "https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" );
     wp_enqueue_style("inter", "https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" );
 
-    wp_enqueue_script('react-modal',get_template_directory_uri() . '/build/index.js',[],filemtime(get_template_directory() . '/build/index.js'),true);
-
 
 
     // Correct path and URL for Tailwind output.css
