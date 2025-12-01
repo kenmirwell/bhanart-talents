@@ -18,8 +18,8 @@ function bhanart_enqueue_styles() {
 
 
     // Correct path and URL for Tailwind output.css
-    $tailwind_path = get_template_directory() . '/public/css/output.css';
-    $tailwind_url  = get_template_directory_uri() . '/public/css/output.css';
+    $tailwind_path = get_template_directory() . '/dist/output.css';
+    $tailwind_url  = get_template_directory_uri() . '/dist/output.css';
 
     if (file_exists($tailwind_path)) {
         wp_enqueue_style('tailwind', $tailwind_url, array(), filemtime($tailwind_path));
