@@ -15,7 +15,7 @@
 
 
 <body>
-  <header id="header" class="bg-white shadow-md top-0 z-[999] fixed w-[100%] transition-all duration-200 ease">
+  <header id="header" class="bg-white shadow-md w-[100%] transition-all duration-200 ease">
     <div class="custom-container mx-auto flex items-center justify-between px-4 py-4">
         THIS IS HEADER    
     </div>
