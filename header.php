@@ -16,8 +16,8 @@
 
 <body>
   <header id="header" class="bg-white shadow-md w-[100%] transition-all duration-200 ease">
-    <div class="custom-container mx-auto flex items-center justify-between px-4 py-4">
-        THIS IS The HEADER    
+    <div class="w-[1200px] mx-auto flex items-center justify-between">
+        <h1>THIS IS The HEADER</h1>
     </div>
   </header>
 
