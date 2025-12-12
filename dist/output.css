@@ -193,8 +193,14 @@
   .gap-\[20px\] {
     gap: 20px;
   }
+  .gap-\[40px\] {
+    gap: 40px;
+  }
   .gap-\[50px\] {
     gap: 50px;
+  }
+  .gap-\[65px\] {
+    gap: 65px;
   }
   .rounded-\[10px\] {
     border-radius: 10px;

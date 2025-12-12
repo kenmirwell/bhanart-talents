@@ -15,12 +15,12 @@
 
 
 <body>
-  <header id="header" class="shadow-md w-[100%] transition-all duration-200 ease">
+  <header id="header" class="shadow-md w-[100%] border border-b-[1px] border-[#2d2820] transition-all duration-200 ease">
     <div class="custom-container mx-auto flex items-center justify-between py-[20px]">
         <div>
           <h1 class="font-bold">BhanartTalents</h1>
         </div>
-        <div class="text-[#ffffff] flex gap-[10px]">
+        <div class="text-[#ffffff] flex gap-[40px]">
           <a href="/">Home</a>
           <a href="/">About Us</a>
           <a href="/">Our Talents</a>
