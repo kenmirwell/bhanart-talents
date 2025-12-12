@@ -10,6 +10,7 @@
     --color-red-500: oklch(63.7% 0.237 25.331);
     --color-white: #fff;
     --font-weight-bold: 700;
+    --radius-2xl: 1rem;
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -202,8 +203,14 @@
   .gap-\[65px\] {
     gap: 65px;
   }
+  .rounded-2xl {
+    border-radius: var(--radius-2xl);
+  }
   .rounded-\[10px\] {
     border-radius: 10px;
+  }
+  .rounded-full {
+    border-radius: calc(infinity * 1px);
   }
   .border {
     border-style: var(--tw-border-style);
@@ -229,11 +236,17 @@
   .bg-\[\#19140e\] {
     background-color: #19140e;
   }
+  .bg-white {
+    background-color: var(--color-white);
+  }
   .p-\[20px\] {
     padding: 20px;
   }
   .p-\[50px\] {
     padding: 50px;
+  }
+  .px-\[8px\] {
+    padding-inline: 8px;
   }
   .px-\[20px\] {
     padding-inline: 20px;
