@@ -25,7 +25,7 @@
           <a href="/">About Us</a>
           <a href="/">Our Talents</a>
         </div>
-        <a class=" py-[15px] px-[20px] bg-[#e7b20d] rounded-xl" href="/">Hire Talents</a>
+        <a class=" py-[15px] px-[20px] button-gold rounded-xl" href="/">Hire Talents</a>
     </div>
   </header>
 
