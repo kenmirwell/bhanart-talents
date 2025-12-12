@@ -5,9 +5,9 @@
                 <p class="text-[#a39e96] text-center">Real stories from real clients. Their words reflect the quality and care we bring to every project.</p>
         </div>
         <div class="flex gap-[20px] justify-between">
-            <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px]">
-                <div class="flex justify-between">
-                    <div class="relative w-[100px] h-[100px] overflow-hidden rounded-full gold-border">
+            <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px] p-[20px]">
+                <div class="flex p-[20px]">
+                    <div class="relative w-[100px] h-[100px] overflow-hidden rounded-full">
                         <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
                     </div>
                     <div class="flex flex-col">
@@ -16,7 +16,7 @@
                     </div>
                 </div>
                 <div>
-                    <p>"Using remote talent through BhanArt Studio has transformed the way we approach projects. The onboarding was seamless, and the quality of work exceeded our expectations."</p>
+                    <p class="text-[#a39e96]">"Using remote talent through BhanArt Studio has transformed the way we approach projects. The onboarding was seamless, and the quality of work exceeded our expectations."</p>
                 </div>
             </div>
         </div>
