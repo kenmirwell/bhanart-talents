@@ -259,6 +259,9 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
+  .pb-\[20px\] {
+    padding-bottom: 20px;
+  }
   .pb-\[50px\] {
     padding-bottom: 50px;
   }
@@ -280,6 +283,9 @@
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
     font-weight: var(--font-weight-bold);
+  }
+  .text-\[\#2d2820\] {
+    color: #2d2820;
   }
   .text-\[\#6b6760\] {
     color: #6b6760;
@@ -330,6 +336,14 @@
     &:hover {
       @media (hover: hover) {
         --tw-shadow: 0 4px 6px var(--tw-shadow-color, rgba(231,178,13,0.5));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+      }
+    }
+  }
+  .hover\:shadow-\[2px_6px_6px_rgba\(231\,178\,13\,0\.5\)\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 2px 6px 6px var(--tw-shadow-color, rgba(231,178,13,0.5));
         box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
       }
     }
