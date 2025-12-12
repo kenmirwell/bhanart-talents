@@ -192,6 +192,9 @@
   .h-\[300px\] {
     height: 300px;
   }
+  .h-\[320px\] {
+    height: 320px;
+  }
   .h-auto {
     height: auto;
   }
@@ -248,6 +251,9 @@
   }
   .gap-\[65px\] {
     gap: 65px;
+  }
+  .gap-\[100px\] {
+    gap: 100px;
   }
   .overflow-hidden {
     overflow: hidden;
