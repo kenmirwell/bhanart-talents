@@ -5,8 +5,8 @@
             <p class="text-[#ffffff] text-center">With 20+ years in Architecture, Engineering, and Creative fields, we connect top talent with firms. Our remote staffing solutions offer efficient, cost-effective production expansion through expert recruitment and dedicated management.</p>
         </div>
         <div class="flex justify-between gap-[20px]">
-            <a href="rounded-xl gold-button">Browse All Talents</a>
-            <a href="rounded-xl border-[1px] gold-border">How it Works</a>
+            <a class="gold-button" href="">Browse All Talents</a>
+            <a class="border-[1px] gold-border" href="">How it Works</a>
         </div>
     </div>
 </div>
