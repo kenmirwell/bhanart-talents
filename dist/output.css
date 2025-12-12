@@ -203,6 +203,9 @@
   .px-\[20px\] {
     padding-inline: 20px;
   }
+  .px-\[50px\] {
+    padding-inline: 50px;
+  }
   .py-\[10px\] {
     padding-block: 10px;
   }
@@ -211,6 +214,9 @@
   }
   .py-\[50px\] {
     padding-block: 50px;
+  }
+  .pt-\[20px\] {
+    padding-top: 20px;
   }
   .text-center {
     text-align: center;
