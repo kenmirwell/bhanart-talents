@@ -7,18 +7,20 @@
         </div>
         <div class="p-[20px] rounded-2xl border-[1px] border-[#2d2820]">
             <div>
-                <img src="./assets/guy1.jpeg" alt="">
-            </div>
-            <div class="flex">
-                <h2 class="text-[24px] text-white">Marcus Johnson</h2>
-                <p class="gold-text">3D Artist</p>
+                <img src="../../assets/guy1.jpeg" alt="">
             </div>
             <div>
-                <div class="py-[20px] px-[8px] rounded-full">
-                    <p y=text-[#a39e96]>3D Modeling</p>
+                <div class="flex flex-col">
+                    <h2 class="text-[24px] text-white">Marcus Johnson</h2>
+                    <p class="gold-text">3D Artist</p>
                 </div>
+                <div>
+                    <div class="py-[20px] px-[8px] rounded-full">
+                        <p y=text-[#a39e96]>3D Modeling</p>
+                    </div>
+                </div>
+                <a class="gold-button" href="">View Profile</a>
             </div>
-            <a class="gold-button" href="">View Profile</a>
         </div>
     </div>
 </div>
