@@ -9,7 +9,7 @@
             <div>
                 <img src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
             </div>
-            <div class="bg-[#0d0700] p-[20px]">
+            <div class="bg-[#0d0700] p-[20px] w-fit">
                 <div class="flex flex-col">
                     <h2 class="text-[24px] text-white">Marcus Johnson</h2>
                     <p class="gold-text">3D Artist</p>
@@ -19,7 +19,9 @@
                         <p y=text-[#a39e96]>3D Modeling</p>
                     </div>
                 </div>
-                <a class="gold-button" href="">View Profile</a>
+                <div>
+                    <a class="gold-button" href="">View Profile</a>
+                </div>
             </div>
         </div>
     </div>
