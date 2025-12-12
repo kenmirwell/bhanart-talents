@@ -29,7 +29,7 @@ export default {
             width: '1024px',
           },
           '@screen xl': {
-            width: '1280px',
+            width: '1200px',
           },
         },
       })

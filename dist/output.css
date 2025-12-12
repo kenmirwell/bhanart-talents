@@ -8,7 +8,6 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
-    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
     --default-transition-duration: 150ms;
@@ -166,15 +165,6 @@
   }
 }
 @layer utilities {
-  .fixed {
-    position: fixed;
-  }
-  .top-0 {
-    top: calc(var(--spacing) * 0);
-  }
-  .z-\[999\] {
-    z-index: 999;
-  }
   .mx-auto {
     margin-inline: auto;
   }
