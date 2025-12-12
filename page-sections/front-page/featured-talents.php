@@ -15,7 +15,7 @@
                         <h2 class="text-[24px] text-white">Marcus Johnson</h2>
                         <p class="gold-text ">3D Artist</p>
                     </div>
-                    <div class="flex flex-wrap gap-[20px] py-[20px]">
+                    <div class="flex flex-wrap gap-[5px] py-[20px]">
                         <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                             <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
                         </div>
@@ -41,7 +41,7 @@
                         <h2 class="text-[24px] text-white">Marcus Johnson</h2>
                         <p class="gold-text ">3D Artist</p>
                     </div>
-                    <div class="flex flex-wrap gap-[20px] py-[20px]">
+                    <div class="flex flex-wrap gap-[5px] py-[20px]">
                         <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                             <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
                         </div>
@@ -67,7 +67,7 @@
                         <h2 class="text-[24px] text-white">Marcus Johnson</h2>
                         <p class="gold-text ">3D Artist</p>
                     </div>
-                    <div class="flex flex-wrap gap-[20px] py-[20px]">
+                    <div class="flex flex-wrap gap-[5px] py-[20px]">
                         <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                             <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
                         </div>

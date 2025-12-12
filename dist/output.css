@@ -179,6 +179,9 @@
   .flex {
     display: flex;
   }
+  .h-\[100px\] {
+    height: 100px;
+  }
   .h-\[200px\] {
     height: 200px;
   }
@@ -193,6 +196,9 @@
   }
   .w-\[100\%\] {
     width: 100%;
+  }
+  .w-\[100px\] {
+    width: 100px;
   }
   .w-\[300px\] {
     width: 300px;
@@ -280,6 +286,9 @@
   }
   .bg-\[\#e7b20d1a\] {
     background-color: #e7b20d1a;
+  }
+  .bg-\[\#e7b20d\] {
+    background-color: #e7b20d;
   }
   .bg-white {
     background-color: var(--color-white);
