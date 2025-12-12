@@ -16,29 +16,23 @@ export default {
     },
   },
   plugins: [
-    function ({ addBase, theme }) {
-      addBase({
-        '.custom-container': {
+  function ({ addBase, theme }) {
+    addBase({
+      '.custom-container': {
           marginLeft: 'auto',
           marginRight: 'auto',
           width: '90%',
-        },
-        [`@media (min-width: ${theme('screens.md')})`]: {
-          '.custom-container': {
+          '@screen md': {
             width: '768px',
           },
-        },
-        [`@media (min-width: ${theme('screens.lg')})`]: {
-          '.custom-container': {
+          '@screen lg': {
             width: '1024px',
           },
-        },
-        [`@media (min-width: ${theme('screens.xl')})`]: {
-          '.custom-container': {
+          '@screen xl': {
             width: '1200px',
           },
-        },
-      });
-    },
-  ],
+      },
+    });
+  },
+],
 };
