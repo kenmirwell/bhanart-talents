@@ -1,4 +1,4 @@
-<div class="custom-container px-[50px]">
+<div class="custom-container px-[50px] py-[80px]">
     <div class="flex flex-col justify-center p-[50px] items-center">
         <div class="">
             <h1 class="text-[72px] text-center font-bold">Remote Teams. <span class="text-[#ffffff]">Expert Talent. </span>Real Results.</h1>
