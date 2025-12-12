@@ -17,7 +17,15 @@
 <body>
   <header id="header" class="shadow-md w-[100%] transition-all duration-200 ease">
     <div class="w-[1200px] mx-auto flex items-center justify-between py-[10px]">
-        <h1>THIS IS The HEADER</h1>
+        <div>
+          <h1>BhanartTalents</h1>
+        </div>
+        <div>
+          <a href="">Home</a>
+          <a href="">About Us</a>
+          <a href="">Our Talents</a>
+        </div>
+        <div>Hire Talents</div>
     </div>
   </header>
 
