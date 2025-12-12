@@ -19,23 +19,23 @@ module.exports = {
     },
   },
   plugins: [
-    function ({ addComponents, theme }) {
+    ({ addComponents }) => {
       addComponents({
         '.custom-container': {
           marginLeft: 'auto',
           marginRight: 'auto',
           width: '90%',
-          [`@media (min-width: ${theme('screens.md')})`]: {
+          '@screen md': {
             width: '768px',
           },
-          [`@media (min-width: ${theme('screens.lg')})`]: {
+          '@screen lg': {
             width: '1024px',
           },
-          [`@media (min-width: ${theme('screens.xl')})`]: {
-            width: '1200px',
+          '@screen xl': {
+            width: '1280px',
           },
         },
-      });
+      })
     },
   ],
 };
