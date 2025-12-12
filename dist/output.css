@@ -8,6 +8,7 @@
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-white: #fff;
     --font-weight-bold: 700;
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --default-transition-duration: 150ms;
@@ -220,6 +221,9 @@
   .border-\[\#6b6760\] {
     border-color: #6b6760;
   }
+  .bg-\[\#0d0700\] {
+    background-color: #0d0700;
+  }
   .bg-\[\#12100C\] {
     background-color: #12100C;
   }
@@ -299,6 +303,9 @@
   .text-red-500 {
     color: var(--color-red-500);
   }
+  .text-white {
+    color: var(--color-white);
+  }
   .shadow-\[0_4px_6px_\#2d2820\] {
     --tw-shadow: 0 4px 6px var(--tw-shadow-color, #2d2820);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -324,6 +331,10 @@
   .duration-200 {
     --tw-duration: 200ms;
     transition-duration: 200ms;
+  }
+  .duration-300 {
+    --tw-duration: 300ms;
+    transition-duration: 300ms;
   }
   .hover\:border-\[\#e7b20d\] {
     &:hover {
