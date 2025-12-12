@@ -211,6 +211,9 @@
     border-bottom-style: var(--tw-border-style);
     border-bottom-width: 1px;
   }
+  .border-\[\#2d2820\] {
+    border-color: #2d2820;
+  }
   .border-\[\#6b6760\] {
     border-color: #6b6760;
   }
@@ -247,11 +250,17 @@
   .pt-\[50px\] {
     padding-top: 50px;
   }
+  .pb-\[50px\] {
+    padding-bottom: 50px;
+  }
   .text-center {
     text-align: center;
   }
   .text-\[24px\] {
     font-size: 24px;
+  }
+  .text-\[42px\] {
+    font-size: 42px;
   }
   .text-\[50px\] {
     font-size: 50px;
