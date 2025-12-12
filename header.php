@@ -20,7 +20,7 @@
         <div>
           <h1 class="font-bold">BhanartTalents</h1>
         </div>
-        <div class="text-[#ffffff]">
+        <div class="text-[#ffffff] flex gap-[10px]">
           <a href="/">Home</a>
           <a href="/">About Us</a>
           <a href="/">Our Talents</a>

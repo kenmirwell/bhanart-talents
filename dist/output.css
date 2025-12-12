@@ -184,6 +184,9 @@
   .justify-between {
     justify-content: space-between;
   }
+  .gap-\[10px\] {
+    gap: 10px;
+  }
   .rounded-xl {
     border-radius: var(--radius-xl);
   }
