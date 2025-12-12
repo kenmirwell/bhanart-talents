@@ -33,3 +33,19 @@
     backdrop-filter: blur(10px);
     box-shadow: var(--shadow-md);
 }
+
+.our-talents-hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    pointer-events: none;
+
+    background-image: radial-gradient(
+        circle at right top,
+        rgba(231,178,13,0.15),
+        transparent 70%
+    );
+}

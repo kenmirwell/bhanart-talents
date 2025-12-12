@@ -183,14 +183,8 @@
   .h-\[100px\] {
     height: 100px;
   }
-  .h-\[200px\] {
-    height: 200px;
-  }
   .h-\[280px\] {
     height: 280px;
-  }
-  .h-\[300px\] {
-    height: 300px;
   }
   .h-\[320px\] {
     height: 320px;
@@ -206,9 +200,6 @@
   }
   .w-\[100px\] {
     width: 100px;
-  }
-  .w-\[300px\] {
-    width: 300px;
   }
   .w-\[350px\] {
     width: 350px;
@@ -318,9 +309,6 @@
   .p-\[50px\] {
     padding: 50px;
   }
-  .px-\[8px\] {
-    padding-inline: 8px;
-  }
   .px-\[20px\] {
     padding-inline: 20px;
   }
@@ -353,9 +341,6 @@
   }
   .text-center {
     text-align: center;
-  }
-  .text-right {
-    text-align: right;
   }
   .text-\[14px\] {
     font-size: 14px;
@@ -466,6 +451,16 @@
   background: rgba(13, 7, 0, 0.95);
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-md);
+}
+.our-talents-hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  pointer-events: none;
+  background-image: radial-gradient( circle at right top, rgba(231,178,13,0.15), transparent 70% );
 }
 @property --tw-border-style {
   syntax: "*";
