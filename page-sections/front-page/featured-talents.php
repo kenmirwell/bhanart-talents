@@ -6,10 +6,10 @@
                 <a class="gold-button text-center" href="">Browse All Talents</a>
         </div>
         <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820]">
-            <div>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
+            <div class="relative w-[100%] h-[200px]">
+                <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
             </div>
-            <div class="bg-[#0d0700] p-[20px] w-fit">
+            <div class="bg-[#0d0700] p-[20px] w-[100%]">
                 <div class="flex flex-col">
                     <h2 class="text-[24px] text-white">Marcus Johnson</h2>
                     <p class="gold-text">3D Artist</p>
