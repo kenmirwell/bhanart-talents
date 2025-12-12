@@ -175,14 +175,17 @@
   .w-\[100\%\] {
     width: 100%;
   }
-  .w-\[1200px\] {
-    width: 1200px;
+  .flex-col {
+    flex-direction: column;
   }
   .items-center {
     align-items: center;
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-\[10px\] {
     gap: 10px;
@@ -204,6 +207,13 @@
   }
   .py-\[15px\] {
     padding-block: 15px;
+  }
+  .py-\[50px\] {
+    padding-block: 50px;
+  }
+  .font-\[72px\] {
+    --tw-font-weight: 72px;
+    font-weight: 72px;
   }
   .font-bold {
     --tw-font-weight: var(--font-weight-bold);
@@ -234,6 +244,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .custom-container {
   width: 1200px;
+  margin: auto;
 }
 #header {
   position: sticky;

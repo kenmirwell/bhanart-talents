@@ -15,4 +15,20 @@ export default {
       },
     },
   },
+  // plugins: [
+  //   function({ addComponents }) {
+  //     const components = {
+  //       '.custom-container': {
+  //         marginLeft: 'auto',
+  //         marginRight: 'auto',
+  //         width: '90%',
+  //         '@screen md': { width: '768px' },
+  //         '@screen lg': { width: '1024px' },
+  //         '@screen xl': { width: '1200px' },
+  //       },
+  //     };
+
+  //     addComponents(components);
+  //   },
+  // ]
 };
