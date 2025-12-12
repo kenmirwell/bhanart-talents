@@ -5,7 +5,7 @@
                 <p class="text-[#a39e96] text-center">Access to top talent from around the globe at your fingertips, showcasing the effectiveness of remote hiring.</p>
                 <a class="gold-button text-center" href="">Browse All Talents</a>
         </div>
-        <div>
+        <div class="flex gap-[20px] justify-between">
             <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[300px]">
                 <div class="relative w-[100%] h-[280px] overflow-hidden">
                     <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
