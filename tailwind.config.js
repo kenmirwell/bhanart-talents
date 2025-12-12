@@ -1,41 +1,44 @@
-/** @type {import('tailwindcss').Config} */
-module.exports = {
+export default {
   content: [
-    "./**/*.php",                     // WordPress theme files
-    "./src/**/*.{js,jsx,ts,tsx}",     // React/Vite components
-    "./src/**/*.{css}",               // Any custom CSS
-    "./*.{html,js,php}",              // Root files
+    "./**/*.php", // scans all PHP files
+    "./src/**/*.{js,css}", // if you have JS or CSS in a src folder
   ],
   theme: {
     extend: {
       fontFamily: {
-        corben: ['corben', 'sans-serif'],
+        corben: ['corben', 'sans-serif'], // use as font-shrikhand
         fraunces: ['fraunces', 'sans-serif'],
         poppins: ['Poppins', 'sans-serif'],
         ibmFlexsans: ['IBM Plex Sans', 'sans-serif'],
         raleway: ['raleway', 'sans-serif'],
-        inter: ['inter', 'sans-serif'],
+        inter: ['inter', 'sans-serif'] 
       },
     },
   },
   plugins: [
-    ({ addComponents }) => {
-      addComponents({
+    function ({ addBase, theme }) {
+      addBase({
         '.custom-container': {
           marginLeft: 'auto',
           marginRight: 'auto',
           width: '90%',
-          '@screen md': {
+        },
+        [`@media (min-width: ${theme('screens.md')})`]: {
+          '.custom-container': {
             width: '768px',
           },
-          '@screen lg': {
+        },
+        [`@media (min-width: ${theme('screens.lg')})`]: {
+          '.custom-container': {
             width: '1024px',
           },
-          '@screen xl': {
-            width: '1280px',
+        },
+        [`@media (min-width: ${theme('screens.xl')})`]: {
+          '.custom-container': {
+            width: '1200px',
           },
         },
-      })
+      });
     },
   ],
 };
