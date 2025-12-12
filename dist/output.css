@@ -293,6 +293,14 @@
   .text-red-500 {
     color: var(--color-red-500);
   }
+  .shadow-\[0_4px_6px_\#2d2820\] {
+    --tw-shadow: 0 4px 6px var(--tw-shadow-color, #2d2820);
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
+  .shadow-\[0_4px_6px_rgba\(231\,178\,13\,0\)\] {
+    --tw-shadow: 0 4px 6px var(--tw-shadow-color, rgba(231,178,13,0));
+    box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
+  }
   .shadow-md {
     --tw-shadow: 0 4px 6px -1px var(--tw-shadow-color, rgb(0 0 0 / 0.1)), 0 2px 4px -2px var(--tw-shadow-color, rgb(0 0 0 / 0.1));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -315,6 +323,14 @@
     &:hover {
       @media (hover: hover) {
         border-color: #e7b20d;
+      }
+    }
+  }
+  .hover\:shadow-\[0_4px_6px_rgba\(231\,178\,13\,0\.5\)\] {
+    &:hover {
+      @media (hover: hover) {
+        --tw-shadow: 0 4px 6px var(--tw-shadow-color, rgba(231,178,13,0.5));
+        box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
       }
     }
   }
