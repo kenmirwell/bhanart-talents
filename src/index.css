@@ -11,13 +11,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .gold-button {
     background-color: #e7b20d;
-    border-radius: 20px;
+    border-radius: 8px;
+    padding: 10px 20px;
 }
 
 .gold-border {
-    border-radius: 20px;
+    border-radius: 8px;
     border: 1px solid;
     border-color: #e7b20d;
+    padding: 10px 20px;
 }
 
 #header {
