@@ -22,6 +22,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 10px 20px;
 }
 
+.gold-text {
+    color: #e7b20d;
+}
+
 #header {
     position: sticky;
     top: 0;

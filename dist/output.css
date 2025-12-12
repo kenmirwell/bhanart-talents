@@ -9,7 +9,6 @@
       "Courier New", monospace;
     --color-red-500: oklch(63.7% 0.237 25.331);
     --font-weight-bold: 700;
-    --radius-xl: 0.75rem;
     --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -200,6 +199,9 @@
   .bg-\[\#151517\] {
     background-color: #151517;
   }
+  .p-\[50px\] {
+    padding: 50px;
+  }
   .px-\[20px\] {
     padding-inline: 20px;
   }
@@ -211,9 +213,6 @@
   }
   .py-\[20px\] {
     padding-block: 20px;
-  }
-  .py-\[50px\] {
-    padding-block: 50px;
   }
   .pt-\[20px\] {
     padding-top: 20px;
@@ -265,6 +264,9 @@ h1, h2, h3, h4, h5, h6 {
   border: 1px solid;
   border-color: #e7b20d;
   padding: 10px 20px;
+}
+.gold-text {
+  color: #e7b20d;
 }
 #header {
   position: sticky;
