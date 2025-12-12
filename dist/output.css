@@ -197,6 +197,9 @@
   .w-\[300px\] {
     width: 300px;
   }
+  .w-\[350px\] {
+    width: 350px;
+  }
   .w-fit {
     width: fit-content;
   }
