@@ -15,7 +15,7 @@
                     <p class="gold-text ">3D Artist</p>
                 </div>
                 <div>
-                    <div class="py-[20px] px-[8px] rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
+                    <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                         <p class=text-[#a39e96]>3D Modeling</p>
                     </div>
                 </div>

@@ -287,6 +287,9 @@
   .px-\[50px\] {
     padding-inline: 50px;
   }
+  .py-\[8px\] {
+    padding-block: 8px;
+  }
   .py-\[10px\] {
     padding-block: 10px;
   }
