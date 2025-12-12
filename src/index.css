@@ -9,11 +9,14 @@ h1, h2, h3, h4, h5, h6 {
     margin: auto;
 }
 
-.button-gold {
+.gold-button {
     background-color: #e7b20d;
+    border-radius: 20px;
 }
 
 .gold-border {
+    border-radius: 20px;
+    border: 1px solid;
     border-color: #e7b20d;
 }
 
