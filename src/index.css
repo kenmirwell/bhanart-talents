@@ -53,31 +53,53 @@
 
 
 
-.scrollable-container-X {
-    overflow-x: scroll; /* horizontal scrolling */
+scrollable-container-X {
+    position: relative;
+    width: 100%;
+    height: 100px; /* height of the visible area */
+    overflow-x: auto;
+    overflow-y: hidden;
+    white-space: nowrap;
     scroll-behavior: smooth;
 
-    /* For Firefox */
-    scrollbar-width: thin; /* Firefox already uses thin */
-    scrollbar-color: #4caf50 #3a352d;
+    /* hide native scrollbar */
+    scrollbar-width: none; /* Firefox */
 }
-
-/* Webkit browsers (Chrome, Safari, Edge) */
 .scrollable-container-X::-webkit-scrollbar {
-    height: 2px; /* ultra-thin horizontal scrollbar */
+    display: none; /* Chrome, Safari, Edge */
 }
 
-.scrollable-container-X::-webkit-scrollbar-track {
-    background: #3a352d; 
-    border-radius: 1px;
+/* Content inside */
+.scrollable-container-X .item {
+    display: inline-block;
+    width: 150px;
+    height: 100%;
+    margin-right: 10px;
+    background: #4caf50;
+    border-radius: 5px;
 }
 
-.scrollable-container-X::-webkit-scrollbar-thumb {
-    background-color: #4caf50; 
-    border-radius: 1px;
-    border: none; /* remove border to keep it thin */
+/* Custom scrollbar */
+.scrollbar-track {
+    position: absolute;
+    bottom: 2px; /* position of scrollbar */
+    left: 0;
+    right: 0;
+    height: 3px; /* ultra-thin height */
+    background: #f0f0f0;
+    border-radius: 2px;
 }
 
-.scrollable-container-X::-webkit-scrollbar-thumb:hover {
-    background-color: #45a049;
+.scrollbar-thumb {
+    height: 100%;
+    background: #4caf50;
+    border-radius: 2px;
+    width: 50px; /* initial width, will adjust with JS */
+    position: absolute;
+    left: 0;
+}
+
+/* Optional hover effect */
+.scrollbar-thumb:hover {
+    background: #45a049;
 }

@@ -5,7 +5,7 @@
         </div>
         <button class="bg-[#e7b20d] px-[40px] py-[10px]">Search</button>
     </div>
-    <div class="scrollable-container-X custom-container overflow-y-hidden">
+    <div id="scrollContainer" class="scrollable-container-X custom-container overflow-y-hidden pb-[20px]">
         <div class="flex gap-[20px]">
             <div class="border-[1px] border-[#3a352d] rounded-[10px] text-[#a39e96] px-[12px] py-[8px] w-fit">
                 <p class="w-max">All</p>
@@ -41,5 +41,8 @@
                 <p class="w-max">Virtual Assitant</p>
             </div>
         </div>
+    </div>
+    <div class="scrollbar-track">
+        <div class="scrollbar-thumb" id="scrollThumb"></div>
     </div>
 </div>
