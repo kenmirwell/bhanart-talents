@@ -258,6 +258,9 @@
   .overflow-hidden {
     overflow: hidden;
   }
+  .overflow-y-scroll {
+    overflow-y: scroll;
+  }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
   }
@@ -332,6 +335,9 @@
   }
   .px-\[20px\] {
     padding-inline: 20px;
+  }
+  .px-\[40px\] {
+    padding-inline: 40px;
   }
   .px-\[50px\] {
     padding-inline: 50px;
