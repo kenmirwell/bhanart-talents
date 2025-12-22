@@ -324,6 +324,9 @@
   .px-\[5px\] {
     padding-inline: 5px;
   }
+  .px-\[12px\] {
+    padding-inline: 12px;
+  }
   .px-\[20px\] {
     padding-inline: 20px;
   }
@@ -356,6 +359,9 @@
   }
   .pb-\[50px\] {
     padding-bottom: 50px;
+  }
+  .pb-\[80px\] {
+    padding-bottom: 80px;
   }
   .text-center {
     text-align: center;
