@@ -53,35 +53,34 @@
 
 
 
-.scrollable-container-Y {
-    overflow-y: scroll;
-
+.scrollable-container-X {
+    overflow-x: scroll;
     /* Optional: smooth scrolling */
     scroll-behavior: smooth;
 }
 
 /* Webkit browsers (Chrome, Safari, Edge) */
-.scrollable-container-Y::-webkit-scrollbar {
+.scrollable-container-X::-webkit-scrollbar {
     width: 4px; /* width of the scrollbar */
 }
 
-.scrollable-container-Y::-webkit-scrollbar-track {
+.scrollable-container-X::-webkit-scrollbar-track {
     background: #3a352d; /* track color */
-    border-radius: 5px;
+    border-radius: 2px;
 }
 
-.scrollable-container-Y::-webkit-scrollbar-thumb {
+.scrollable-container-X::-webkit-scrollbar-thumb {
     background-color: #4caf50; /* thumb color */
-    border-radius: 5px;
+    border-radius: 2px;
     border: 1px solid #3a352d; /* gives some padding effect */
 }
 
-.scrollable-container-Y::-webkit-scrollbar-thumb:hover {
+.scrollable-container-X::-webkit-scrollbar-thumb:hover {
     background-color: #45a049; /* hover effect */
 }
 
 /* For Firefox */
-.scrollable-container-Y {
+.scrollable-container-X {
     scrollbar-width: thin;
     scrollbar-color: #4caf50 #f0f0f0;
 }
