@@ -490,7 +490,7 @@
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: #4caf50 #3a352d;
+  scrollbar-color: #736027 #3a352d;
 }
 .scrollable-container-X::-webkit-scrollbar {
   height: 2px;
@@ -500,12 +500,12 @@
   border-radius: 1px;
 }
 .scrollable-container-X::-webkit-scrollbar-thumb {
-  background-color: #4caf50;
+  background-color: #736027;
   border-radius: 1px;
   border: none;
 }
 .scrollable-container-X::-webkit-scrollbar-thumb:hover {
-  background-color: #45a049;
+  background-color: #736027;
 }
 @property --tw-border-style {
   syntax: "*";
