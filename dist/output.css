@@ -282,6 +282,9 @@
   .border-\[\#2d2820\] {
     border-color: #2d2820;
   }
+  .border-\[\#3a352d\] {
+    border-color: #3a352d;
+  }
   .border-\[\#e7b20d33\] {
     border-color: #e7b20d33;
   }
@@ -338,6 +341,9 @@
   }
   .pt-\[50px\] {
     padding-top: 50px;
+  }
+  .pt-\[80px\] {
+    padding-top: 80px;
   }
   .pb-\[20px\] {
     padding-bottom: 20px;
