@@ -54,7 +54,6 @@
 
 
 .scrollable-container-Y {
-    height: 300px; /* Set a fixed height to enable scrolling */
     overflow-y: scroll;
 
     /* Optional: smooth scrolling */
@@ -63,18 +62,18 @@
 
 /* Webkit browsers (Chrome, Safari, Edge) */
 .scrollable-container-Y::-webkit-scrollbar {
-    width: 10px; /* width of the scrollbar */
+    width: 4px; /* width of the scrollbar */
 }
 
 .scrollable-container-Y::-webkit-scrollbar-track {
-    background: #f0f0f0; /* track color */
+    background: #3a352d; /* track color */
     border-radius: 5px;
 }
 
 .scrollable-container-Y::-webkit-scrollbar-thumb {
     background-color: #4caf50; /* thumb color */
     border-radius: 5px;
-    border: 2px solid #f0f0f0; /* gives some padding effect */
+    border: 1px solid #3a352d; /* gives some padding effect */
 }
 
 .scrollable-container-Y::-webkit-scrollbar-thumb:hover {
