@@ -15,7 +15,7 @@
 
 
 <body>
-  <header id="header" class="shadow-md w-[100%] border border-b-[1px] border-[#2d2820] transition-all duration-200 ease">
+  <header id="header" class="z-[9999] shadow-md w-[100%] border border-b-[1px] border-[#2d2820] transition-all duration-200 ease">
     <div class="custom-container mx-auto flex items-center justify-between py-[20px]">
         <div>
           <h1 class="font-bold">BhanartTalents</h1>
