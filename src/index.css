@@ -59,7 +59,7 @@
 
     /* For Firefox */
     scrollbar-width: thin; /* Firefox already uses thin */
-    scrollbar-color: #4caf50 #f0f0f0;
+    scrollbar-color: #4caf50 #3a352d;
 }
 
 /* Webkit browsers (Chrome, Safari, Edge) */
@@ -68,7 +68,7 @@
 }
 
 .scrollable-container-X::-webkit-scrollbar-track {
-    background: #f0f0f0; 
+    background: #3a352d; 
     border-radius: 1px;
 }
 

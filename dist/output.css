@@ -490,13 +490,13 @@
   overflow-x: scroll;
   scroll-behavior: smooth;
   scrollbar-width: thin;
-  scrollbar-color: #4caf50 #f0f0f0;
+  scrollbar-color: #4caf50 #3a352d;
 }
 .scrollable-container-X::-webkit-scrollbar {
   height: 2px;
 }
 .scrollable-container-X::-webkit-scrollbar-track {
-  background: #f0f0f0;
+  background: #3a352d;
   border-radius: 1px;
 }
 .scrollable-container-X::-webkit-scrollbar-thumb {
