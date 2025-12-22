@@ -5,7 +5,7 @@
         </div>
         <button class="bg-[#e7b20d] px-[40px] py-[10px]">Search</button>
     </div>
-    <div class="scrollable-container-y custom-container">
+    <div class="scrollable-container-Y custom-container">
         <div class="flex gap-[20px]">
             <div class="border-[1px] border-[#3a352d] rounded-[10px] text-[#a39e96] px-[12px] py-[8px] w-fit">
                 <p class="w-max">All</p>
