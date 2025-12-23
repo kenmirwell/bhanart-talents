@@ -6,83 +6,46 @@
                 <a class="gold-button text-center" href="">Browse All Talents</a>
         </div>
         <div class="flex gap-[20px] justify-between">
-            <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px]">
-                <div class="relative w-[100%] h-[280px] overflow-hidden">
-                    <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
-                </div>
-                <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
-                    <div class="flex flex-col">
-                        <h2 class="text-[24px] text-white">Marcus Johnson</h2>
-                        <p class="gold-text ">3D Artist</p>
-                    </div>
-                    <div class="flex flex-wrap gap-[5px] py-[20px]">
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                    </div>
-                    <div class="gold-button w-fit">
-                        <a class="" href="">View Profile</a>
-                    </div>
-                </div>
-            </div>
+            <?php
+                $talents = get_posts([
+                    'post_type' => 'talents',
+                    'posts_per_page' => -1,
+                    'orderby' => 'title',
+                    'order' => 'ASC',
+                ]);
 
-            <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px]">
-                <div class="relative w-[100%] h-[280px] overflow-hidden">
-                    <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy2.jpeg" alt="Marcus Johnson">
-                </div>
-                <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
-                    <div class="flex flex-col">
-                        <h2 class="text-[24px] text-white">Marcus Johnson</h2>
-                        <p class="gold-text ">3D Artist</p>
-                    </div>
-                    <div class="flex flex-wrap gap-[5px] py-[20px]">
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
+                if ($talents): 
+            ?>
+                <?php foreach ($talents as $talent): ?>
+                    <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px]">
+                        <div class="relative w-[100%] h-[280px] overflow-hidden">
+                            <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg" alt="Marcus Johnson">
                         </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
+                        <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
+                            <div class="flex flex-col">
+                                <h2 class="text-[24px] text-white"><?php echo get_the_title($talent->ID); ?></h2>
+                                <p class="gold-text ">3D Artist</p>
+                            </div>
+                            <div class="flex flex-wrap gap-[5px] py-[20px]">
+                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
+                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
+                                </div>
+                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
+                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
+                                </div>
+                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
+                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
+                                </div>
+                            </div>
+                            <div class="gold-button w-fit">
+                                <a class="" href="">View Profile</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="gold-button w-fit">
-                        <a class="" href="">View Profile</a>
-                    </div>
-                </div>
-            </div>
+                <?php endforeach; ?>
+            <?php endif; ?>
 
-            <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-[350px]">
-                <div class="relative w-[100%] h-[280px] overflow-hidden">
-                    <img class="absolute w-[100%] h-auto" src="<?php echo get_template_directory_uri(); ?>/assets/girl1.jpeg" alt="Marcus Johnson">
-                </div>
-                <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
-                    <div class="flex flex-col">
-                        <h2 class="text-[24px] text-white">Marcus Johnson</h2>
-                        <p class="gold-text ">3D Artist</p>
-                    </div>
-                    <div class="flex flex-wrap gap-[5px] py-[20px]">
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                        <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                            <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                        </div>
-                    </div>
-                    <div class="gold-button w-fit">
-                        <a class="" href="">View Profile</a>
-                    </div>
-                </div>
-            </div>
+            
         </div>
     </div>
 </div>
