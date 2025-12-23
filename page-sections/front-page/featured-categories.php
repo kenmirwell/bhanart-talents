@@ -9,7 +9,7 @@
         <div class="">
             <?php
             $categories = get_posts([
-                'post_type' => 'talents_category',
+                'post_type' => 'talents-category',
                 'posts_per_page' => -1,
                 'orderby' => 'title',
                 'order' => 'ASC',
