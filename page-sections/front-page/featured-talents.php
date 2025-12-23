@@ -31,11 +31,16 @@
                                 alt="<?php echo esc_attr(get_the_title($talent->ID)); ?>">
                         </div>
                         <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
-                            <div class="flex flex-col">
-                                <h2 class="text-[24px] text-white"><?php echo get_the_title($talent->ID); ?></h2>
-                                <p class="gold-text "><?php echo $talent_title; ?></p>
+                            <div class="flex justify-between">
+                                <div class="flex flex-col">
+                                    <h2 class="text-[24px] text-white"><?php echo get_the_title($talent->ID); ?></h2>
+                                    <p class="gold-text "><?php echo $talent_title; ?></p>
+                                </div>
+                                <div class="gold-button w-fit mt-4">
+                                    <a href="<?php echo get_permalink($talent->ID); ?>">View Profile</a>
+                                </div>
                             </div>
-                            <div class="flex flex-wrap gap-[5px] py-[20px]">
+                            <!-- <div class="flex flex-wrap gap-[5px] py-[20px]">
                                 <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                                     <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
                                 </div>
@@ -45,10 +50,7 @@
                                 <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
                                     <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
                                 </div>
-                            </div>
-                            <div class="gold-button w-fit mt-4">
-                                <a href="<?php echo get_permalink($talent->ID); ?>">View Profile</a>
-                            </div>
+                            </div> -->
                         </div>
                     </div>
             <?php
