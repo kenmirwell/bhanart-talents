@@ -5,7 +5,7 @@
                 <p class="text-[#a39e96] text-center">Access to top talent from around the globe at your fingertips, showcasing the effectiveness of remote hiring.</p>
                 <a class="gold-button text-center" href="">Browse All Talents</a>
         </div>
-        <div class="flex gap-[20px] justify-between">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
             <?php
                 $talents = get_posts([
                     'post_type' => 'talent',
