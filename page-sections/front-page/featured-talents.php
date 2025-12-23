@@ -20,6 +20,8 @@
                     
                     $featured = get_field('featured', $talent->ID);
                     $url = get_the_post_thumbnail_url($talent->ID, 'large');
+                    $talent_title = get_field("talent_title", $talent->ID)
+
                     if ($featured):
             ?>
                     <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-full">
@@ -31,7 +33,7 @@
                         <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
                             <div class="flex flex-col">
                                 <h2 class="text-[24px] text-white"><?php echo get_the_title($talent->ID); ?></h2>
-                                <p class="gold-text ">3D Artist</p>
+                                <p class="gold-text "><?php echo $talent_title; ?></p>
                             </div>
                             <div class="flex flex-wrap gap-[5px] py-[20px]">
                                 <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
