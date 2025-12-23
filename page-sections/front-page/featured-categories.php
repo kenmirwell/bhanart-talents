@@ -16,19 +16,19 @@
 
             if ($categories): 
         ?>
-            <div class="flex gap-[20px]">
-                    <?php foreach ($categories as $cat): ?>
-                        <div class="bg-[#12100C] p-[20px] rounded-[10px] border border-[1px] border-[#2d2820] hover:border-[#e7b20d] shadow-[0_4px_6px_rgba(231,178,13,0)] hover:shadow-[2px_6px_6px_rgba(231,178,13,0.5)] transition-all duration-300 ease">
-                            <div>
-                                <h3 class="text-[24px] font-bold gold-text"><?php echo get_the_title($cat->ID); ?></h3>
-                                <p class="text-[#a39e96]">From concept art to photorealistic renders, our artists bring visions to life with technical precision and creative excellence.</p>
-                            </div>
-                            <div>
-                                <p class="text-[#2d2820]">150+ professionals</p>
-                                <a class="gold-text" href="<?php echo get_permalink($cat->ID); ?>">Explore</a>
-                            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-5"> <!-- 3 columns on md+ screens -->
+                <?php foreach ($categories as $cat): ?>
+                    <div class="bg-[#12100C] w-[33.33%] p-[20px] rounded-[10px] border border-[1px] border-[#2d2820] hover:border-[#e7b20d] shadow-[0_4px_6px_rgba(231,178,13,0)] hover:shadow-[2px_6px_6px_rgba(231,178,13,0.5)] transition-all duration-300 ease">
+                        <div>
+                            <h3 class="text-[24px] font-bold gold-text"><?php echo get_the_title($cat->ID); ?></h3>
+                            <p class="text-[#a39e96]">From concept art to photorealistic renders, our artists bring visions to life with technical precision and creative excellence.</p>
                         </div>
-                    <?php endforeach; ?>
+                        <div>
+                            <p class="text-[#2d2820]">150+ professionals</p>
+                            <a class="gold-text" href="<?php echo get_permalink($cat->ID); ?>">Explore</a>
+                        </div>
+                    </div>
+                <?php endforeach; ?>
             </div>
         <?php endif; ?>
 
