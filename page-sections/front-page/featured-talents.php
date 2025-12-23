@@ -8,7 +8,7 @@
         <div class="flex gap-[20px] justify-between">
             <?php
                 $talents = get_posts([
-                    'post_type' => 'talents',
+                    'post_type' => 'talent',
                     'posts_per_page' => -1,
                     'orderby' => 'title',
                     'order' => 'ASC',
