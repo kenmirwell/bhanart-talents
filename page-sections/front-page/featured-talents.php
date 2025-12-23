@@ -19,12 +19,13 @@
                     setup_postdata($talent);
                     
                     $featured = get_field('featured', $talent->ID);
+                    $url = get_the_post_thumbnail_url($talent->ID, 'large');
                     if ($featured):
             ?>
                     <div class="flex flex-col rounded-2xl border-[1px] border-[#2d2820] overflow-hidden w-full">
                         <div class="relative w-full h-[280px] overflow-hidden">
                             <img class="absolute inset-0 w-full h-full object-cover"
-                                src="<?php echo get_template_directory_uri(); ?>/assets/guy1.jpeg"
+                                src="<?php echo $url; ?>"
                                 alt="<?php echo esc_attr(get_the_title($talent->ID)); ?>">
                         </div>
                         <div class="bg-[#1a1510] py-[30px] px-[20px] w-[100%]">
