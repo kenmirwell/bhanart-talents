@@ -4,5 +4,6 @@
     <?php get_template_part("page-sections/our-talents/hero-section"); ?>
     <?php get_template_part("page-sections/our-talents/search-section"); ?>
 </div>
+<?php get_template_part("page-sections/our-talents/talents-section"); ?>
 
 <?php get_footer(); ?>
