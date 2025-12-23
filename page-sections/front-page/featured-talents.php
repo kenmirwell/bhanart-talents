@@ -20,7 +20,7 @@
                     
                     $featured = get_field('featured', $talent->ID);
                     $url = get_the_post_thumbnail_url($talent->ID, 'large');
-                    $talent_title = get_field("talent_title", $talent->ID)
+                    $talent_title = get_field("talent_title", $talent->ID);
 
                     if ($featured):
             ?>
@@ -40,17 +40,6 @@
                                     <a href="<?php echo get_permalink($talent->ID); ?>">View Profile</a>
                                 </div>
                             </div>
-                            <!-- <div class="flex flex-wrap gap-[5px] py-[20px]">
-                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                                </div>
-                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                                </div>
-                                <div class="py-[8px] px-[20px] w-fit rounded-full bg-[#e7b20d1a] border-[#e7b20d33] border-[1px]">
-                                    <p class="text-[#a39e96] text-[14px]">3D Modeling</p>
-                                </div>
-                            </div> -->
                         </div>
                     </div>
             <?php
